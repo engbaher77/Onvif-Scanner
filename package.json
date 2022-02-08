@@ -1,0 +1,36 @@
+{
+  "name": "aiactive_api",
+  "version": "1.0.0",
+  "description": "Aiactive backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Baher Elnaggar",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.3",
+    "helmet": "^4.2.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.5.1",
+    "xss-clean": "^0.1.1",
+    "is-port-reachable": "^2.0.0",
+    "jquery": "^3.3.1",
+    "network-list": "^1.1.5",
+    "socket.io": "^2.2.0",
+    "shinobi-onvif": "0.1.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
