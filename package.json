@@ -22,7 +22,7 @@
     "hpp": "^0.2.3",
     "jsonwebtoken": "^8.5.1",
     "morgan": "^1.10.0",
-    "pg": "^8.5.1",
+    "pg": "^8.7.3",
     "xss-clean": "^0.1.1",
     "is-port-reachable": "^2.0.0",
     "jquery": "^3.3.1",
